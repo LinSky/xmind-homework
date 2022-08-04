@@ -1,0 +1,19 @@
+{
+    "watch": [
+        "*.js",
+        "*.json",
+        "*.vue"
+    ],
+    "ext": "js,json,vue",
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ignore": [
+        "package.json",
+        "nodemon.json",
+        "public/*",
+        "dist/*",
+        "node_modules/**/node_modules",
+        ".git"
+    ]
+}
